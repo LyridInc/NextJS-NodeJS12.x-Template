@@ -1,0 +1,19 @@
+{
+  "name": "lyrid-node-express-template",
+  "version": "1.0.0",
+  "description": "Simple Web Express With Next.js Lyrid Serverless Project",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "node index.js"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "next": "10.0.5",
+  }
+}

@@ -1,0 +1,12 @@
+name: YOUR_APP_NAME
+description: App Description
+ignoreFiles: .git .next node_modules
+modules:
+- name: YOUR_MODULE_NAME
+  language: nodejs12.x
+  web: express.nextjs
+  description: Module description
+  functions:
+  - name: YOUR_FUNCTION_NAME
+    entry: entry.js
+    description: the entry point for the function
